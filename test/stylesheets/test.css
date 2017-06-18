@@ -12295,3 +12295,71 @@ button.close {
   line-height: 50px;
   letter-spacing: 15px;
 }
+
+/* line 53, ../sass/_stiling.scss */
+.about {
+  padding-top: 85px;
+}
+/* line 55, ../sass/_stiling.scss */
+.about .h3line {
+  border-top: 5px solid #286191;
+}
+/* line 57, ../sass/_stiling.scss */
+.about .h3line h3 {
+  color: #286191;
+  font-size: 22px;
+  line-height: 34px;
+  text-transform: uppercase;
+}
+/* line 64, ../sass/_stiling.scss */
+.about p {
+  font-size: 22px;
+  color: #13364f;
+  line-height: 34px;
+}
+
+/* line 70, ../sass/_stiling.scss */
+.client {
+  background-color: #9ba9b3;
+  background-color: #303030;
+  background-image: url("img/clients_bg.jpg");
+  height: 783px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 77, ../sass/_stiling.scss */
+.client .imgbg {
+  background-color: #213242;
+  margin-bottom: 15px;
+}
+/* line 80, ../sass/_stiling.scss */
+.client .imgbg img {
+  margin: 0 auto;
+}
+/* line 84, ../sass/_stiling.scss */
+.client h3 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 50px;
+  letter-spacing: 10px;
+  padding-top: 85px;
+  margin-bottom: 85px;
+  border-bottom: 1px solid #fff;
+}
+
+/* line 96, ../sass/_stiling.scss */
+footer {
+  background-color: #0d171f;
+  color: #fff;
+  padding: 35px 0;
+}
+/* line 100, ../sass/_stiling.scss */
+footer p {
+  font-size: 14px;
+}
+/* line 103, ../sass/_stiling.scss */
+footer .term {
+  text-align: right;
+}
