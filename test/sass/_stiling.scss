@@ -1,0 +1,52 @@
+.fullpic {
+    background-color: #303030;
+    background-image: url("img/header_bg.jpg");
+    height: image-height("header_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .social {
+        padding-top: 25px;
+        padding-left: 25px;
+        a {
+            height: 45px;
+            width: 45px;
+            border-radius: 50%;
+            padding: 10px;
+            color: #fff;
+            text-align: center;
+            margin-right: 15px;
+            line-height: normal;
+        }
+        .face {
+            background-color: #256299;
+        }
+        .twit {
+            background-color: #378bb7;
+        }
+        .insta {
+            background-color: #246485;
+        }
+    }
+    .heading {
+        .h1lines, .h2lines {
+            text-align: center;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .h1lines {
+            margin-top: 175px;
+            border-top: 15px solid #3784c5;
+            border-bottom: 15px solid #e5181d;
+        }
+        .h2lines {
+            margin-top: 75px;
+            border-bottom: 1px solid #fff;
+            h2 {
+                font-size: 40px;
+                line-height: 50px;
+                letter-spacing: 15px;
+            }
+        }
+    }
+}

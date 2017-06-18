@@ -12234,3 +12234,64 @@ button.close {
 .fa-meanpath:before {
   content: "";
 }
+
+/* line 1, ../sass/_stiling.scss */
+.fullpic {
+  background-color: #303030;
+  background-image: url("img/header_bg.jpg");
+  height: 637px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 7, ../sass/_stiling.scss */
+.fullpic .social {
+  padding-top: 25px;
+  padding-left: 25px;
+}
+/* line 10, ../sass/_stiling.scss */
+.fullpic .social a {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  margin-right: 15px;
+  line-height: normal;
+}
+/* line 20, ../sass/_stiling.scss */
+.fullpic .social .face {
+  background-color: #256299;
+}
+/* line 23, ../sass/_stiling.scss */
+.fullpic .social .twit {
+  background-color: #378bb7;
+}
+/* line 26, ../sass/_stiling.scss */
+.fullpic .social .insta {
+  background-color: #246485;
+}
+/* line 31, ../sass/_stiling.scss */
+.fullpic .heading .h1lines, .fullpic .heading .h2lines {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 37, ../sass/_stiling.scss */
+.fullpic .heading .h1lines {
+  margin-top: 175px;
+  border-top: 15px solid #3784c5;
+  border-bottom: 15px solid #e5181d;
+}
+/* line 42, ../sass/_stiling.scss */
+.fullpic .heading .h2lines {
+  margin-top: 75px;
+  border-bottom: 1px solid #fff;
+}
+/* line 45, ../sass/_stiling.scss */
+.fullpic .heading .h2lines h2 {
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 15px;
+}
