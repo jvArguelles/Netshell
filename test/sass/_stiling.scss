@@ -36,8 +36,9 @@
         }
         .h1lines {
             margin-top: 175px;
-            border-top: 15px solid #3784c5;
-            border-bottom: 15px solid #e5181d;
+            img {
+                margin: 0 auto;
+            }
         }
         .h2lines {
             margin-top: 75px;
@@ -93,10 +94,20 @@
         border-bottom: 1px solid #fff,
     }
 }
+.form {
+    h3 {
+        font-size: 40px;
+        line-height: 50px;
+        color: #1e2f3e;
+        border-bottom: 1px solid #1e2f3e;
+    }
+}
 footer {
     background-color: #0d171f;
     color: #fff;
     padding: 35px 0;
+    text-align: center;
+    letter-spacing: 5px,
     p {
         font-size: 14px;
     }
