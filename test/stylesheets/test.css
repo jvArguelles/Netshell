@@ -12234,19 +12234,3 @@ button.close {
 .fa-meanpath:before {
   content: "";
 }
-
-/* line 4, ../sass/test.scss */
-body {
-  padding-top: 70px;
-  /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-}
-
-/* line 8, ../sass/test.scss */
-.portfolio-item {
-  margin-bottom: 25px;
-}
-
-/* line 12, ../sass/test.scss */
-footer {
-  margin: 50px 0;
-}
