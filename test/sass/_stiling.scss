@@ -4,9 +4,16 @@
     height: image-height("header_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    @media screen and (max-width: 480px) {
+        height: image-height("header_bg.jpg") / (1.5);
+    }
     .social {
         padding-top: 25px;
         padding-left: 25px;
+        @media screen and (max-width: 480px) {
+            padding-left: 0;
+            text-align: center;
+        }
         a {
             height: 45px;
             width: 45px;
@@ -35,7 +42,10 @@
             font-weight: bold;
         }
         .h1lines {
-            margin-top: 175px;
+            margin-top: 160px;
+            @media screen and(max-width: 480px) {
+                margin-top: 50px;
+            }
             img {
                 margin: 0 auto;
             }
@@ -43,16 +53,24 @@
         .h2lines {
             margin-top: 75px;
             border-bottom: 1px solid #fff;
+            @media screen and (max-width: 480px) {
+                margin-top: 35px;
+            }
             h2 {
                 font-size: 40px;
                 line-height: 50px;
                 letter-spacing: 15px;
+                @media screen and(max-width: 480px) {
+                    font-size: 20px;
+                    line-height: 25px;
+                }
             }
         }
     }
 }
 .about {
     padding-top: 85px;
+    padding-bottom: 100px;
     .h3line {
         border-top: 5px solid #286191;
         h3 {
@@ -60,12 +78,19 @@
             font-size: 22px;
             line-height: 34px;
             text-transform: uppercase;
+            @media screen and (max-width: 480px) {
+                font-size: 14px;
+            }
         }
     }
     p {
         font-size: 22px;
+        font-weight: 300;
         color: #13364f;
         line-height: 34px;
+        @media screen and (max-width: 480px) {
+            font-size: 14px;
+        }
     }
 }
 .client {
@@ -75,6 +100,8 @@
     height: image-height("clients_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 85px;
+    padding-bottom: 100px;
     .imgbg {
         background-color: #213242;
         margin-bottom: 15px;
@@ -89,29 +116,92 @@
         color: #fff;
         line-height: 50px;
         letter-spacing: 10px;
-        padding-top: 85px;
         margin-bottom: 85px;
-        border-bottom: 1px solid #fff,
+        border-bottom: 1px solid #fff;
+        @media screen and (max-width: 480px) {
+            font-size: 20px;
+            line-height: 25px;
+            margin-bottom: 40px;
+        }
     }
 }
 .form {
+    padding: 95px 0 60px 0;
     h3 {
         font-size: 40px;
         line-height: 50px;
         color: #1e2f3e;
         border-bottom: 1px solid #1e2f3e;
+        text-align: center;
+        letter-spacing: 5px;
+        margin: 0;
+        margin-bottom: 50px;
+        @media screen and (max-width: 480px) {
+            font-size: 20px;
+            line-height: 25px;
+        }
+    }
+    p {
+        font-size: 20px;
+        font-weight: 300;
+        color: #13364f;
+        line-height: 34px;
+        @media screen and (max-width: 480px) {
+            font-size: 14px;
+        }
+    }
+    .contactdet {
+        margin-top: 40px;
+        p {
+            font-size: 18px;
+            line-height: 34px;
+            @media screen and (max-width: 480px) {
+                font-size: 18px;
+            }
+            a {
+                color: #13364f;
+            }
+        }
+    }
+    form {
+        input, textarea {
+            width: 100%;
+            background-color: #f2f3f3;
+            color: #13364f;
+            border: none;
+            border-bottom: 4px solid #c9d7e3;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        textarea {
+            resize: none;
+            height: 135px;
+        }
+        .btn {
+            background-color: #286191;
+            color: #fff;
+            font-weight: bold;
+            border-bottom: none;
+            border-radius: 0;
+        }
     }
 }
 footer {
     background-color: #0d171f;
     color: #fff;
     padding: 35px 0;
-    text-align: center;
-    letter-spacing: 5px,
+    margin: 0 -15px;
+    @media screen and (max-width: 480px) {
+        padding: 55px 0 100px;
+        text-align: center;
+    }
     p {
         font-size: 14px;
     }
     .term {
         text-align: right;
+        @media screen and (max-width: 480px) {
+            text-align: center;
+        }
     }
 }
