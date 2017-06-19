@@ -12377,16 +12377,22 @@ button.close {
   padding-top: 85px;
   padding-bottom: 100px;
 }
-/* line 105, ../sass/_stiling.scss */
+@media screen and (max-width: 480px) {
+  /* line 96, ../sass/_stiling.scss */
+  .client {
+    height: 100%;
+  }
+}
+/* line 108, ../sass/_stiling.scss */
 .client .imgbg {
   background-color: #213242;
   margin-bottom: 15px;
 }
-/* line 108, ../sass/_stiling.scss */
+/* line 111, ../sass/_stiling.scss */
 .client .imgbg img {
   margin: 0 auto;
 }
-/* line 112, ../sass/_stiling.scss */
+/* line 115, ../sass/_stiling.scss */
 .client h3 {
   text-align: center;
   font-size: 40px;
@@ -12398,7 +12404,7 @@ button.close {
   border-bottom: 1px solid #fff;
 }
 @media screen and (max-width: 480px) {
-  /* line 112, ../sass/_stiling.scss */
+  /* line 115, ../sass/_stiling.scss */
   .client h3 {
     font-size: 20px;
     line-height: 25px;
@@ -12406,11 +12412,11 @@ button.close {
   }
 }
 
-/* line 128, ../sass/_stiling.scss */
+/* line 131, ../sass/_stiling.scss */
 .form {
   padding: 95px 0 60px 0;
 }
-/* line 130, ../sass/_stiling.scss */
+/* line 133, ../sass/_stiling.scss */
 .form h3 {
   font-size: 40px;
   line-height: 50px;
@@ -12422,13 +12428,13 @@ button.close {
   margin-bottom: 50px;
 }
 @media screen and (max-width: 480px) {
-  /* line 130, ../sass/_stiling.scss */
+  /* line 133, ../sass/_stiling.scss */
   .form h3 {
     font-size: 20px;
     line-height: 25px;
   }
 }
-/* line 144, ../sass/_stiling.scss */
+/* line 147, ../sass/_stiling.scss */
 .form p {
   font-size: 20px;
   font-weight: 300;
@@ -12436,31 +12442,31 @@ button.close {
   line-height: 34px;
 }
 @media screen and (max-width: 480px) {
-  /* line 144, ../sass/_stiling.scss */
+  /* line 147, ../sass/_stiling.scss */
   .form p {
     font-size: 14px;
   }
 }
-/* line 153, ../sass/_stiling.scss */
+/* line 156, ../sass/_stiling.scss */
 .form .contactdet {
   margin-top: 40px;
 }
-/* line 155, ../sass/_stiling.scss */
+/* line 158, ../sass/_stiling.scss */
 .form .contactdet p {
   font-size: 18px;
   line-height: 34px;
 }
 @media screen and (max-width: 480px) {
-  /* line 155, ../sass/_stiling.scss */
+  /* line 158, ../sass/_stiling.scss */
   .form .contactdet p {
     font-size: 18px;
   }
 }
-/* line 161, ../sass/_stiling.scss */
+/* line 164, ../sass/_stiling.scss */
 .form .contactdet p a {
   color: #13364f;
 }
-/* line 167, ../sass/_stiling.scss */
+/* line 170, ../sass/_stiling.scss */
 .form form input, .form form textarea {
   width: 100%;
   background-color: #f2f3f3;
@@ -12470,12 +12476,12 @@ button.close {
   padding: 15px;
   margin-bottom: 15px;
 }
-/* line 176, ../sass/_stiling.scss */
+/* line 179, ../sass/_stiling.scss */
 .form form textarea {
   resize: none;
   height: 135px;
 }
-/* line 180, ../sass/_stiling.scss */
+/* line 183, ../sass/_stiling.scss */
 .form form .btn {
   background-color: #286191;
   color: #fff;
@@ -12484,7 +12490,7 @@ button.close {
   border-radius: 0;
 }
 
-/* line 189, ../sass/_stiling.scss */
+/* line 192, ../sass/_stiling.scss */
 footer {
   background-color: #0d171f;
   color: #fff;
@@ -12492,22 +12498,22 @@ footer {
   margin: 0 -15px;
 }
 @media screen and (max-width: 480px) {
-  /* line 189, ../sass/_stiling.scss */
+  /* line 192, ../sass/_stiling.scss */
   footer {
     padding: 55px 0 100px;
     text-align: center;
   }
 }
-/* line 198, ../sass/_stiling.scss */
+/* line 201, ../sass/_stiling.scss */
 footer p {
   font-size: 14px;
 }
-/* line 201, ../sass/_stiling.scss */
+/* line 204, ../sass/_stiling.scss */
 footer .term {
   text-align: right;
 }
 @media screen and (max-width: 480px) {
-  /* line 201, ../sass/_stiling.scss */
+  /* line 204, ../sass/_stiling.scss */
   footer .term {
     text-align: center;
   }

@@ -102,6 +102,9 @@
     background-size: cover;
     padding-top: 85px;
     padding-bottom: 100px;
+    @media screen and (max-width: 480px) {
+        height: 100%;
+    }
     .imgbg {
         background-color: #213242;
         margin-bottom: 15px;
